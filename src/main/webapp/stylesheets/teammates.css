@@ -239,6 +239,12 @@ h2.subcaption {
     font-family: Arial, Helvetica, sans-serif;
     margin: 10px auto;
     display: block;
+    transition: font-size 1s;
+    -webkit-transition: font-size 1s;
+}
+
+.overviewByteHeading:hover {
+    font-size: 15px;
 }
 
 .overviewByteData {
@@ -270,6 +276,15 @@ h2.subcaption {
 
 .tiny-text a:link {
     color: gray;
+}
+
+.expandOnHover {
+    transition: height 0.5s;
+    -webkit-transition: height 0.5s;
+}
+
+.expandOnHover:hover {
+    height: 50px;
 }
 
 #footer {
